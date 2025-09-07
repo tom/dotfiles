@@ -1,4 +1,4 @@
-font-family = "CaskaydiaMono NFM"
+font-family = "Liga SFMono Nerd Font"
 font-style = "Regular"
-font-size = "16"
-theme = "nord"
+font-size = "14"
+theme = "xcodelight"
