@@ -1,12 +1,9 @@
 return {
-  -- add gruvbox
-  { "lunacookies/vim-colors-xcode" },
+  'projekt0n/github-nvim-theme',
+  config = function()
+    require('github-theme').setup({
+    })
 
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "xcodelight",
-    },
-  },
+    vim.cmd('colorscheme github_light_colorblind')
+  end,
 }
