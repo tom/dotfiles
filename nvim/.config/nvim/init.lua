@@ -8,6 +8,8 @@ vim.cmd("set shiftwidth=2")
 
 vim.cmd("set number")
 
+vim.cmd("set clipboard+=unnamedplus")
+
 vim.g.mapleader= " "
 
 require("config.lazy")
