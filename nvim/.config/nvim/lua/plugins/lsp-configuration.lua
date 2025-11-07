@@ -10,15 +10,19 @@ return {
     "mason-org/mason-lspconfig.nvim",
     lazy = false,
     opts = {
-      ensure_installed = { "lua_ls" },
+      ensure_installed = {
+        "lua_ls",
+        "rust_analyzer",
+      },
     },
   },
   {
     "neovim/nvim-lspconfig",
     lazy = false,
     config = function()
-
       vim.lsp.enable('lua_ls')
+
+      vim.lsp.enable('rust_analyzer')
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
@@ -26,6 +30,6 @@ return {
       vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})
       vim.keymap.set("n", "<leader>rn", vim.lsp.buf.code_action, {})
       vim.keymap.set('n', '<space>rn', vim.lsp.buf.rename, {})
-    end, 
+    end,
   },
 }

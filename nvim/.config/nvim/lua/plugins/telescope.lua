@@ -5,8 +5,8 @@ return {
     dependencies = { 'nvim-lua/plenary.nvim' },
     lazy = false,
     keys = {
-      {"<C-t>", "<cmd>Telescope find_files<cr>", desc = "Find files"},
-      {"<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Live grep"}
+      { "<C-t>",      "<cmd>Telescope find_files<cr>", desc = "Find files" },
+      { "<leader>fg", "<cmd>Telescope live_grep<cr>",  desc = "Live grep" }
     }
   },
   {
@@ -33,12 +33,12 @@ return {
             --      do the following
             --   codeactions = false,
             -- }
-         }
-       }
-     }
-     -- To get ui-select loaded and working with telescope, you need to call
-     -- load_extension, somewhere after setup function:
-     require("telescope").load_extension("ui-select")
-   end
+          }
+        }
+      }
+      -- To get ui-select loaded and working with telescope, you need to call
+      -- load_extension, somewhere after setup function:
+      require("telescope").load_extension("ui-select")
+    end
   },
 }
