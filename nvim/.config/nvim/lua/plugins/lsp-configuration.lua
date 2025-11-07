@@ -20,9 +20,16 @@ return {
     "neovim/nvim-lspconfig",
     lazy = false,
     config = function()
-      vim.lsp.enable('lua_ls')
 
-      vim.lsp.enable('rust_analyzer')
+      local capabilities = require('cmp_nvim_lsp').default_capabilities()
+
+      vim.lsp.enable('lua_ls', {
+        capabilities = capabilities,
+      })
+
+      vim.lsp.enable('rust_analyzer', {
+        capabilities = capabilities,
+      })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
