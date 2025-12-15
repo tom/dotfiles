@@ -1,6 +1,4 @@
 font-family = "Monaspace Neon NF"
 font-style = "Medium"
 font-size = "14"
-theme = "GitHub Light Colorblind"
-window-decoration = true
-macos-option-as-alt=true
+theme = "nord"

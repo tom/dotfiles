@@ -1,4 +1,4 @@
-theme = "github_light_colorblind"
+theme = "nord"
 
 [editor]
 auto-save = true
