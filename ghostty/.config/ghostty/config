@@ -2,3 +2,5 @@ font-family = "Monaspace Neon NF"
 font-style = "Medium"
 font-size = "14"
 theme = "nord"
+font-thicken=true
+macos-option-as-alt=right
