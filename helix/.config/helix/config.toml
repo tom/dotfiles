@@ -1,4 +1,4 @@
-theme = "nord"
+theme = "github_light_colorblind"
 
 [editor]
 mouse = false

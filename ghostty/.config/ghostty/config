@@ -1,6 +1,6 @@
-font-family = "SauceCodePro Nerd Font Mono"
+font-family = "Liga SFMono Nerd Font"
 font-style = "Medium"
 font-size = "14"
-theme = "nord"
+theme = "Xcode Light hc"
 font-thicken=true
 macos-option-as-alt=right
