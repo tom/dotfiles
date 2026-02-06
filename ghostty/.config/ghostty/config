@@ -1,6 +1,6 @@
-font-family = "Liga SFMono Nerd Font"
+font-family = "Monaspace Neon NF"
 font-style = "Medium"
 font-size = "14"
-theme = "Xcode Light hc"
+theme = "nord"
 font-thicken=true
 macos-option-as-alt=right
