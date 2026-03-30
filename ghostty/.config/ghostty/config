@@ -1,5 +1,5 @@
-font-family = "Monaspace Neon NF"
-font-style = "Medium"
+font-family = "JetBrainsMono Nerd Font Mono"
+font-style="medium"
 font-size = "14"
 theme = "nord"
 font-thicken=true
