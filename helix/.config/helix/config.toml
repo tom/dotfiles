@@ -1,8 +1,18 @@
-theme = "nord"
+theme = "github_light_colorblind"
 
 [editor]
 mouse = false
 auto-save = true
+
+[editor.lsp]
+enable=true
+auto-signature-help=true
+display-messages = true
+
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 1
 
 [editor.cursor-shape]
 insert = "bar"
