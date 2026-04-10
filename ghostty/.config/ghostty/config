@@ -1,6 +1,6 @@
-font-family = "SF Mono"
-font-style="medium"
-font-size = "14"
-theme = "GitHub Light Colorblind"
+font-family = "Ubuntu Nerd Font Mono"
+#font-style="medium"
+font-size = "17"
+theme = "Nord"
 font-thicken=true
 macos-option-as-alt=right
