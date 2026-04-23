@@ -1,6 +1,6 @@
 font-family = "SauceCodePro Nerd Font Mono"
 font-style="medium"
 font-size = "13"
-theme = "nord"
+theme = "Nord"
 font-thicken=true
 macos-option-as-alt=right
