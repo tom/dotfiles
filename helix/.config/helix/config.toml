@@ -1,12 +1,12 @@
-theme = "nord"
+theme = "github_light_colorblind"
 
 [editor]
 mouse = false
 auto-save = true
 
 [editor.lsp]
-enable=true
-auto-signature-help=true
+enable = true
+auto-signature-help = true
 display-messages = true
 
 [editor.indent-guides]
@@ -21,6 +21,6 @@ select = "underline"
 
 [editor.soft-wrap]
 enable = true
-max-wrap = 25 # increase value to reduce forced mid-word wrapping
+max-wrap = 25         # increase value to reduce forced mid-word wrapping
 max-indent-retain = 0
-wrap-indicator = ""  # set wrap-indicator to "" to hide it
+wrap-indicator = ""   # set wrap-indicator to "" to hide it
