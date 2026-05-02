@@ -1,6 +1,6 @@
-font-family = "SF Mono"
+font-family = "AtkynsonMono Nerd Font Mono"
 font-style="medium"
 font-size = "13"
-theme = "Xcode Light hc"
+theme = "nord"
 font-thicken=true
 macos-option-as-alt=right
