@@ -1,7 +1,7 @@
 return {
-  "EdenEast/nightfox.nvim",
+  "shaunsingh/nord.nvim",
   lazy = false,
   config = function()
-    vim.cmd("colorscheme nordfox")
+    vim.cmd("colorscheme nord")
   end,
 }
