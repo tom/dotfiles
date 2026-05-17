@@ -1,7 +1,9 @@
 return {
-  "shaunsingh/nord.nvim",
-  lazy = false,
-  config = function()
-    vim.cmd("colorscheme nord")
-  end,
+  { "shaunsingh/nord.nvim" },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "nord",
+    },
+  },
 }
