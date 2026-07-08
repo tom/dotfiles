@@ -27,6 +27,16 @@
     # on what's tapped.
     taps = builtins.attrNames config.nix-homebrew.taps;
     # casks / brews can go here, or be defined per-host if they differ
+     brews = [
+       "mas"
+     ];
+     casks = [
+       "firefox"
+     ];
+     masApps = {
+       "ReadKit" = 1615798039;
+       "uBlock Origin Lite" = 6745342698;
+     };
   };
 
   # bumping this changes nix-darwin's compatibility expectations - leave
